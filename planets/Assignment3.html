@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+
+<HTML>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<style>
+table {
+  table-layout: fixed; 
+  width: 100%;
+  *margin-left: -100px;/*ie7*/
+}
+td, th {
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+  padding:10px;
+  width:100px;
+}
+th {
+  position:absolute;
+  *position: relative; /*ie7*/
+  left:0; 
+  width:100px;
+}
+.outer {position:relative}
+.inner {
+  overflow-x:scroll;
+  overflow-y:visible;
+  
+  margin-left:10px;
+}
+</style>
+<script>
+$(document).ready(function(){
+$.getJSON("system.json", function(data){
+var jsonData = data.SOLAR_SYSTEM.PLANETS.PLANET;
+var check;
+$("#inputHere").append("<tr><td>PlanetName</td><td>PlanetColor</td><td>PlanetDistance</td><td>PlanetRadius</td><td>PlanetYear</td><td>PlanetDays</td><td>PlanetMass</td><td>PlanetDensity</td><td>SATELLITE 1</td><td>DISTANCE FROM PLANET</td><td>ORBITS</td><td>SATELLITE 2</td><td>DISTANCE FROM PLANET</td><td>ORBITS</td></tr>");
+
+for(var i = 0; i < jsonData.length; i++){
+if(jsonData[i].SATELLITES){
+
+var sat =jsonData[i].SATELLITES.SATELLITE;
+var store= "";
+if(sat.length > 0){
+for(var x = 0; x < sat.length; x++){
+  store = store + "<td>"+sat[x].NAME+"</td><td>"+sat[x].DISTANCE_FROM_PLANET+"KM</td><td>"+sat[x].ORBIT.text+sat[x].ORBIT.UNITS+"</td>";
+}
+}
+else {
+ store = "<td>"+sat.NAME+"</td><td>"+sat.DISTANCE_FROM_PLANET+"KM</td><td>"+sat.ORBIT.text+sat.ORBIT.UNITS+"</td>";
+
+}
+$("#inputHere").append("<tr><td>"+jsonData[i].NAME+"</td><td>"+ jsonData[i].COLOR+"</td><td>"+jsonData[i].DISTANCE.text + jsonData[i].DISTANCE.UNITS+"</td><td>"+jsonData[i].RADIUS.text + jsonData[i].RADIUS.UNITS+"</td><td>"+jsonData[i].LENGTH_OF_YEAR+"</td><td>"+jsonData[i].DAY.text + jsonData[i].DAY.UNITS+"</td><td>"+jsonData[i].MASS.text + jsonData[i].MASS.UNITS+"</td><td>"+jsonData[i].DENSITY.text + jsonData[i].DENSITY.UNITS+"</td>"+store+"</tr>");
+
+}
+else{
+
+$("#inputHere").append("<tr><td>"+jsonData[i].NAME+"</td><td>"+ jsonData[i].COLOR+"</td><td>"+jsonData[i].DISTANCE.text + jsonData[i].DISTANCE.UNITS+"</td><td>"+jsonData[i].RADIUS.text + jsonData[i].RADIUS.UNITS+"</td><td>"+jsonData[i].LENGTH_OF_YEAR+"</td><td>"+jsonData[i].DAY.text + jsonData[i].DAY.UNITS+"</td><td>"+jsonData[i].MASS.text + jsonData[i].MASS.UNITS+"</td><td>"+jsonData[i].DENSITY.text + jsonData[i].DENSITY.UNITS+"</td><td>No Satellities</td></tr>");
+}
+	
+	//console.log(jsonData[i].COLOR);
+	//console.log(jsonData[i].DISTANCE.UNITS);
+	//console.log(jsonData[i].DISTANCE.text);
+
+}
+
+
+
+
+
+});
+
+
+
+});
+
+</script>
+
+
+</head>
+
+<body>
+<div data-role ="page" id="pageone" >
+  <div data-role="header" data-theme="a|b">
+    
+  </div>
+ 
+   <div  data-role="main" class="ui-content">
+   <div data-role="collapsible" >
+   <h1>Planet Info</h1>
+   <form class="ui-filterable">
+  <input id="myFilter" data-type="search">
+</form>
+<div class="outer">
+  <div class="inner">
+   <table id = "inputHere" border="1"  data-filter="true" data-input="#myFilter">
+  
+</table>
+ </div>
+</div>
+   </div>
+  </div>
+
+  <div data-role="footer"  >
+    <h2>Name : Mandip Karki <br>Age:22 <br> Gender: MALE <br> Program: SYST24444 </h2>
+  </div>
+</div> 
+
+</body>
+
+
+</HTML>

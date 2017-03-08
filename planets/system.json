@@ -1,0 +1,333 @@
+{
+  "SOLAR_SYSTEM": {
+    "PLANETS": {
+      "PLANET": [
+        {
+          "COLOR": "ORANGE",
+          "NAME": "Mercury",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "57.91"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "2340"
+          },
+          "LENGTH_OF_YEAR": "0.24085",
+          "DAY": {
+            "UNITS": "days",
+            "text": "88"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "0.054"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "6.03"
+          }
+        },
+        {
+          "COLOR": "WHITE",
+          "NAME": "Venus",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "108.21"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "6100"
+          },
+          "LENGTH_OF_YEAR": "0.61521",
+          "DAY": {
+            "UNITS": "days",
+            "text": "230"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "0.814"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "5.11"
+          }
+        },
+        {
+          "COLOR": "BLUE",
+          "NAME": "Earth",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "149.60"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "6371"
+          },
+          "LENGTH_OF_YEAR": "1.000039",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "24"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "1.00"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "5.517"
+          },
+          "SATELLITES": {
+            "SATELLITE": {
+              "NAME": "Moon",
+              "DISTANCE_FROM_PLANET": "384405",
+              "ORBIT": {
+                "UNITS": "days",
+                "text": "27.322"
+              }
+            }
+          }
+        },
+        {
+          "COLOR": "RED",
+          "NAME": "Mars",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "227.9"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "3324"
+          },
+          "LENGTH_OF_YEAR": "1.88089",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "24.5"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "0.107"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "4.16"
+          },
+          "SATELLITES": {
+            "SATELLITE": [
+              {
+                "NAME": "Phobos",
+                "DISTANCE_FROM_PLANET": "9380",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "0.319"
+                }
+              },
+              {
+                "NAME": "Deimos",
+                "DISTANCE_FROM_PLANET": "23500",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "1.262"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "COLOR": "YELLOW",
+          "NAME": "Jupiter",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "778.3"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "69750"
+          },
+          "LENGTH_OF_YEAR": "11.8653",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "9.8"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "317.4"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "1.34"
+          },
+          "SATELLITES": {
+            "SATELLITE": [
+              {
+                "NAME": "III Ganymede",
+                "DISTANCE_FROM_PLANET": "1070000",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "7.155"
+                }
+              },
+              {
+                "NAME": "IV Callisto",
+                "DISTANCE_FROM_PLANET": "1882000",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "16.689"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "COLOR": "YELLOW",
+          "NAME": "Saturn",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "1428"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "58170"
+          },
+          "LENGTH_OF_YEAR": "29.6501",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "10.2"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "95.0"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "0.68"
+          },
+          "SATELLITES": {
+            "SATELLITE": [
+              {
+                "NAME": "Titan",
+                "DISTANCE_FROM_PLANET": "1221000",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "15.945"
+                }
+              },
+              {
+                "NAME": "Rhea",
+                "DISTANCE_FROM_PLANET": "526700",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "4.518"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "COLOR": "YELLOW",
+          "NAME": "Uranus",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "2872"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "23750"
+          },
+          "LENGTH_OF_YEAR": "83.7445",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "10.7"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "14.5"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "1.55"
+          },
+          "SATELLITES": {
+            "SATELLITE": [
+              {
+                "NAME": "Ariel",
+                "DISTANCE_FROM_PLANET": "191700",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "2.520"
+                }
+              },
+              {
+                "NAME": "Miranda",
+                "DISTANCE_FROM_PLANET": "1234000",
+                "ORBIT": {
+                  "UNITS": "days",
+                  "text": "1.414"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "COLOR": "PURPLE",
+          "NAME": "Neptune",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "4498"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "22400"
+          },
+          "LENGTH_OF_YEAR": "165.951",
+          "DAY": {
+            "UNITS": "hours",
+            "text": "12.7"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "17.6"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "2.23"
+          },
+          "SATELLITES": {
+            "SATELLITE": {
+              "NAME": "Triton",
+              "DISTANCE_FROM_PLANET": "353400",
+              "ORBIT": {
+                "UNITS": "days",
+                "text": "5.877"
+              }
+            }
+          }
+        },
+        {
+          "COLOR": "GRAY",
+          "NAME": "Pluto",
+          "DISTANCE": {
+            "UNITS": "km",
+            "text": "5910"
+          },
+          "RADIUS": {
+            "UNITS": "km",
+            "text": "3000"
+          },
+          "LENGTH_OF_YEAR": "247.687",
+          "DAY": {
+            "UNITS": "days",
+            "text": "6.39"
+          },
+          "MASS": {
+            "UNITS": "(Earth=1)",
+            "text": "0.2"
+          },
+          "DENSITY": {
+            "UNITS": "gm/cm",
+            "text": "5.2"
+          }
+        }
+      ]
+    }
+  }
+}

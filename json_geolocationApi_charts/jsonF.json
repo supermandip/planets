@@ -1,0 +1,168 @@
+{
+  "data": {
+    "records": {
+      "record": [
+        {
+          "index": "65",
+          "country": "Spain",
+          "frequency": "Annual",
+          "time_period": "2007",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "30.019",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "66",
+          "country": "Spain",
+          "frequency": "Annual",
+          "time_period": "2008",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "33.695",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "67",
+          "country": "Spain",
+          "frequency": "Annual",
+          "time_period": "2009",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "46.026",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "68",
+          "country": "Spain",
+          "frequency": "Annual",
+          "time_period": "2010",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "51.693",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "69",
+          "country": "Sweden",
+          "frequency": "Annual",
+          "time_period": "2007",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "36.406",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "70",
+          "country": "Sweden",
+          "frequency": "Annual",
+          "time_period": "2008",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "35.56",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "71",
+          "country": "Sweden",
+          "frequency": "Annual",
+          "time_period": "2009",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "38.098",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "72",
+          "country": "Sweden",
+          "frequency": "Annual",
+          "time_period": "2010",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "33.782",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "73",
+          "country": "Switzerland",
+          "frequency": "Annual",
+          "time_period": "2007",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "23.216",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "74",
+          "country": "Switzerland",
+          "frequency": "Annual",
+          "time_period": "2008",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "22.376",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "75",
+          "country": "Switzerland",
+          "frequency": "Annual",
+          "time_period": "2009",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "20.723",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "76",
+          "country": "Switzerland",
+          "frequency": "Annual",
+          "time_period": "2010",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "20.24",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "77",
+          "country": "United Kingdom",
+          "frequency": "Annual",
+          "time_period": "2007",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "42.744",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "78",
+          "country": "United Kingdom",
+          "frequency": "Annual",
+          "time_period": "2008",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "61.059",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "79",
+          "country": "United Kingdom",
+          "frequency": "Annual",
+          "time_period": "2009",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "75.27",
+          "variable": "Total central government debt % of GDP"
+        },
+        {
+          "index": "80",
+          "country": "United Kingdom",
+          "frequency": "Annual",
+          "time_period": "2010",
+          "type": "Stocks: Outstanding amounts",
+          "unit": "Percentage",
+          "value": "85.535",
+          "variable": "Total central government debt % of GDP"
+        }
+      ]
+    }
+  }
+}
